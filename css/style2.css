@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+body{
+background-image: url(../images/1.jpg);
+background-attachment: fixed;
+max-width: 100%;
+max-height: 100%;
+font: 18px 'Comic Sans Ms';
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgba(128, 0, 0);
+    text-decoration: none;
+    border-radius: 4px;
+}
+ul.menu > li > a:hover {
+    background-color: rgba(128, 0, 0, 0.8);
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 45px;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+#logo{
+  margin-left: 23%;
+  margin-top: 30px;
+  width:507px;
+  height: 269px;
+  background-image: url(../images/logo35.jpg);
+    background-repeat: no-repeat;
+  background-position: center ;
+  background-attachment: scroll;
+
+}
+#line{
+  width:90%;
+  height: 45px;
+  margin-top: 50px;
+}
+
+
+#container{
+  width:90%;
+  height:8080px;
+  background-color: rgba(250, 235, 215,0.9);
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+
+ 
+#column-1 {
+  width: 34%;
+  background: rgba(255, 255, 255);
+  float: left;
+  min-height: 7600px;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-top: -45px;
+
+}
+
+#column-2 {
+  background: rgba(255, 255, 255);
+  width: 32%;
+  min-height: 7600px;
+  float: left;
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-top: -45px;
+}
+
+#column-3 {
+  width: 34%;
+  min-height: 7600px;
+  float: left;
+  background: rgba(255, 255, 255);
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  margin-top: -45px;
+}
+h2 {
+  text-align: right-center;
+  font-family: Comic Sans Ms,Montserrat,sans-serif;
+  color: #800000;
+  
+}
+h1 {
+  text-align: center;
+  font-family: Comic Sans Ms,Montserrat,sans-serif;
+  color: #800000;
+}
+h3{
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+}
+h4{
+  text-align: center;
+  font-family: Comic Sans Ms, sans-serif;
+  color: orange;
+  margin-top: -30px;
+}
